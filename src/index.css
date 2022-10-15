@@ -21,6 +21,21 @@ code {
   bottom: 0
 }
 
+.userPage{
+  display:flex;
+  justify-content: center;
+}
+
+.userPageContent{
+ justify-content: center;
+ display: block;
+}
+
+.userName{
+  font-size: 50px;
+  margin-left: 60px;
+}
+
 .navBar button{
   margin-left: 20px;
   margin-right: 20px;
@@ -32,8 +47,9 @@ code {
   font-weight: 20px;
 }
 
-.homePage{
-  margin-left:20px
+.balanceContainer{
+  margin-left:20px;
+  margin-top: 20px;
 }
 
 .balanceText{
@@ -47,13 +63,79 @@ code {
 }
 
 .contactText{
-  font-size:15px
+  font-size:18px;
+ 
 }
 
-.contactsContainer{
+.contactFrame{
   display:inline-block;
   margin-left: 10px;
   width:90px;
 }
 
+.contactContainer{
+  margin-left: 20px;
+  
+}
 
+.pendingInvoiceContainer{
+  display:inline-block;
+  width: 300px;
+}
+
+.pendingInvoiceAmount{
+  float:right;
+  width:30px;
+  margin-bottom: 20px;
+}
+
+.invoiceName{
+  display:inline-block;
+  font-size: 11px;
+}
+
+.invoiceAmountOwed{
+  float:right;
+  color:red;
+  font-size: 18px;
+}
+
+.payButton{
+  background-color: #059669;
+  border-radius: 20px;
+  color:white;
+  border-width: thin;
+  width:100px;
+  height: 25px;
+}
+
+.requestButton{
+    background-color: #059669;
+    border-radius: 20px;
+    color:white;
+    border-width: thin;
+   width:200px;
+   height: 50px;
+   margin-top: 50px;
+  margin-left: 90px;
+  
+}
+
+.amntBtnPair{
+  display: block;
+  width: 100px;
+  float: right;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.invoicePage{
+  margin-left: 20px;
+}
+
+.dateText{
+  color:#059669
+}
